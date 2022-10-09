@@ -23,6 +23,3 @@ The output from the above command is `consul-consul-client`. However, When using
 Assuming the above `./consul_chart_values.yaml` file includes `global.name = team1`, the correct Service Account name would now be output:
 
 `consul-team1-client`
-
-
-{{ template "_internal/disqus.html" . }}
