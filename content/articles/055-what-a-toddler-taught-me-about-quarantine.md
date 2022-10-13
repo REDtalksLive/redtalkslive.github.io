@@ -1,8 +1,8 @@
 ---
-title: '#56 – What a toddler taught me about quarantine'
-date: Sun, 29 Mar 2020 02:37:36 +0000
+title: '#056 – What a toddler taught me about quarantine'
+date: '2020-03-29'
 draft: false
-tags: ['Uncategorized']
+tags: ['Remote Working']
 ---
 
 How do I tell a one year old we can’t go to the playground?

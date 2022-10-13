@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks.live #26: WWT on why Super-NetOps is different'
-date: Wed, 21 Feb 2018 02:15:07 +0000
+title: 'REDtalks.live #026: WWT on why Super-NetOps is different'
+date: '2018-02-21'
 draft: false
-tags: ['audio', 'chat', 'introduction', 'super-netops', 'wwt']
+tags: ['Guest Interview', 'Super-NetOps', 'WWT']
 ---
 
 Some great content from friends at World Wide Technology (WWT) explaining how the Super-NetOps Training Program differs from traditional infrastructure automation training.

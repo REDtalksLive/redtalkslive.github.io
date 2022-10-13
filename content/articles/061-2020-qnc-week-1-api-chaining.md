@@ -1,8 +1,8 @@
 ---
-title: '#61 - 2020 QNC - Week 1: API Chaining'
-date: Mon, 13 Apr 2020 05:08:23 +0000
+title: '#061 - 2020 QNC - Week 1: API Chaining'
+date: '2020-04-13'
 draft: false
-tags: ['Uncategorized']
+tags: ['API']
 ---
 
 Welcome to [#2020QNC](https://twitter.com/hashtag/2020QNC). You are the **top** 1% of all naval aviators -- the elite, the **BEST of the best**.... Wait, that's Top Gun... Let's start again.... 

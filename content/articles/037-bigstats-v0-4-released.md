@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks.live #37 - BigStats v0.4 released'
-date: Wed, 05 Sep 2018 16:46:13 +0000
+title: 'REDtalks.live #037 - BigStats v0.4 released'
+date: '2018-09-05'
 draft: false
-tags: ['BigStats', 'code', 'telemetry', 'words']
+tags: ['BigStats', 'Code', 'Telemetry']
 ---
 
 BigStats v0.4 has been released! Yay!!! ![BigStats-300dpi](https://redtalkslive.files.wordpress.com/2018/09/bigstats-300dpi.png) Way back in [REDtalks.live #32 – Stats & Dashboards](http://redtalks.live/2018/05/25/redtalks-live-32-stats-dashboards/) (May 25th) I demonstrated a prototype solution for getting useful data out of a BIG-IP and into various telemetry pipelines... Well, that was version 0.1, and now we're up to version 0.4! So, what's happened since? Highlights from the RELEASE\_NOTES.md file:

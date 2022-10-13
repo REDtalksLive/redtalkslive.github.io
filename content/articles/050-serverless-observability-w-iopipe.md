@@ -2,7 +2,7 @@
 title: 'REDtalks.live #50 - Serverless Observability w/ IOpipe'
 date: Wed, 10 Apr 2019 18:08:10 +0000
 draft: false
-tags: ['chat', 'iopipe', 'observability', 'serverless', 'video']
+tags: ['Guest Interview', 'IOpipe', 'Observability', 'Serverless']
 ---
 
 Episode #50. Wooohooo! And for this landmark 50th episode we're delighted to have super-popular Serverless observability company, [IOpipe](https://www.iopipe.com/), on the show. In this episode (video below) I'm joined by IOpipe founder and CTO, [Erica Windisch](https://twitter.com/ewindisch).

@@ -1,8 +1,8 @@
 ---
-title: '#65 – UX or UI, know the difference?'
-date: Wed, 27 May 2020 21:17:21 +0000
+title: '#065 – UX or UI, know the difference?'
+date: '2020-05-27'
 draft: false
-tags: ['Uncategorized']
+tags: ['UX', 'Guest Interview']
 ---
 
 Delighted to be joined by Product Designer, [Nina Goluskin](https://www.linkedin.com/in/ninagoluskin/), in this episode to shed some light on the differences between UX and UI.

@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks #18 - Enabling the docker TCP API in AWS'
-date: Fri, 26 May 2017 23:41:29 +0000
+title: 'REDtalks #018 - Enabling the docker TCP API in AWS'
+date: '2017-05-26'
 draft: false
-tags: ['API', 'AWS', 'docker', 'words']
+tags: ['API', 'AWS', 'Docker']
 ---
 
 Not a traditional REDtalks post today (no interview/demo), but this took me a while to work out so I thought I'd share.

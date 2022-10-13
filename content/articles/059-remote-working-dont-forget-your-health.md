@@ -1,8 +1,8 @@
 ---
-title: '#59 - Remote Working: Don''t forget your Health'
+title: "#059 - Remote Working: Don't forget your Health"
 date: Tue, 07 Apr 2020 04:26:07 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Remote Working']
 ---
 
 For those proficient in the kitchen (beyond the microwave), before you scoff at the idea of this post, yes, we've got a generation of people who have never needed to cook. In fact, the tech world is especially responsible for this era of folk who are nutritionally dependent on being in the office.

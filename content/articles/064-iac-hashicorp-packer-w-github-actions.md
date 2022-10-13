@@ -1,8 +1,8 @@
 ---
-title: '#64 - IaC – HashiCorp Packer w/ Github Actions'
-date: Mon, 18 May 2020 20:18:56 +0000
+title: '#064 - IaC – HashiCorp Packer w/ Github Actions'
+date: '2020-05-18'
 draft: false
-tags: ['Uncategorized']
+tags: ['Packer', 'Github', 'Github Actions']
 ---
 
 In this episode I demonstrate how to automate the creation and distribution of AMIs across 4 AWS regions with the safety and reproducibility of version control.

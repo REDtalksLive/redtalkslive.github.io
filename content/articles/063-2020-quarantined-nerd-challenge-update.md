@@ -1,6 +1,6 @@
 ---
-title: '#63 - 2020 Quarantined Nerd Challenge – UPDATE'
-date: Fri, 01 May 2020 23:38:44 +0000
+title: '#063 - 2020 Quarantined Nerd Challenge – UPDATE'
+date: '2020-05-01'
 draft: false
 tags: ['Uncategorized']
 ---

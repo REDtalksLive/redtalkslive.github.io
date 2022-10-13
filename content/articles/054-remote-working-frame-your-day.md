@@ -1,8 +1,8 @@
 ---
-title: '#54 - Remote Working: Frame Your Day'
-date: Mon, 23 Mar 2020 19:02:20 +0000
+title: '#054 - Remote Working: Frame Your Day'
+date: '2020-03-23'
 draft: false
-tags: ['culture', 'remote working', 'Uncategorized']
+tags: ['Remote Working']
 ---
 
 For those used to commuting you may not have realized how much that commute was helping you frame your day and maintain a healthy separation between work and personal life. In addition to enforcing a healthy separation, traveling to work also allows for transition into the right mindset to be effective the moment you reach your place of business. Unfortunately, self quarantine has taken familiar necessity from many.

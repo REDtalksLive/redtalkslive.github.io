@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks.live #44 - Security Automation /w Benn Alp'
-date: Thu, 07 Feb 2019 16:21:28 +0000
+title: 'REDtalks.live #044 - Security Automation /w Benn Alp'
+date: '2019-02-07'
 draft: false
-tags: ['Uncategorized']
+tags: ['Guest Interview', 'Security', 'Automation', 'DevSecOps']
 ---
 
 Welcome to episode 44 of REDtalks.live, your home of Ranting, Engineers, and Devops, where I'm joined by F5 Networks Global Security Solution Architect, Benn Alp. Benn brings perspective based on many years of security experience across a range of roles and verticals. Learned in this episode:

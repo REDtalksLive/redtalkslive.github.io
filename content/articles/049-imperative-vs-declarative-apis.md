@@ -2,7 +2,7 @@
 title: 'REDtalks.live #49 - Imperative vs Declarative APIs /w Kin Lane'
 date: Tue, 26 Mar 2019 16:05:58 +0000
 draft: false
-tags: ['API', 'API Contract', 'chat', 'introduction', 'video']
+tags: ['API', 'API Contract', 'Guest Interview']
 ---
 
 My good pal, Kin Lane, is back on the show for his third appearance to discuss the much debated topic of Imperative vs Declarative APIs. Key discussion points on this topic:

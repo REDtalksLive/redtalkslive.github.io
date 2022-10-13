@@ -1,8 +1,8 @@
 ---
-title: '#57 - Remote Working: Staying Focused'
-date: Mon, 30 Mar 2020 21:15:54 +0000
+title: '#057 - Remote Working: Staying Focused'
+date: '2020-03-30'
 draft: false
-tags: ['Uncategorized']
+tags: ['Remote Working']
 ---
 
 A change of environment can be super distracting. For me, it can be as little as how much, or little, sleep I’m getting, or whether I’m maintaining a responsible, or irresponsible, level of caffeine intake. Don’t waste time being envious of those laser-focused, seemingly robotic colleagues because focus is learnable.

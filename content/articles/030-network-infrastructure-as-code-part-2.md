@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks.live #30 - Network Configuration as Code - Part 2'
-date: Fri, 04 May 2018 20:58:24 +0000
+title: 'REDtalks.live #030 - Network Configuration as Code - Part 2'
+date: '2018-05-04'
 draft: false
-tags: ['Automation', 'demo', 'GitHub', 'Infrastructure as Code', 'video']
+tags: ['Automation', 'Demo', 'GitHub', 'Infrastructure as Code', 'IaC']
 ---
 
 Role-based Access Control and Change Rollback
@@ -20,6 +20,6 @@ Infrastructure as Code is a great stepping stone towards integrated and automate
 
 Enough of the words, take a look at the video below and let me know your thoughts!
 
-\[youtube https://www.youtube.com/watch?v=ER2nstuswPo\]
+{{< youtube ER2nstuswPo >}}
 
 Thanks for listening!

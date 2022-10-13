@@ -1,8 +1,8 @@
 ---
-title: '#71 -  Announcing REDtalks Labs'
-date: Thu, 09 Sep 2021 01:38:09 +0000
+title: '#071 -  Announcing REDtalks Labs'
+date: '2021-09-09'
 draft: false
-tags: ['Uncategorized']
+tags: ['Announcement']
 ---
 
 Today, REDtalks.live turned 5 years old. It has been an amazing journey and I've been very grateful for the interactions with our fantastic listeners along the way.

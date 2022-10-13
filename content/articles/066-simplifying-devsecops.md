@@ -1,8 +1,8 @@
 ---
-title: '#66 - Simplifying DevSecOps'
-date: Fri, 05 Jun 2020 17:52:09 +0000
+title: '#066 - Simplifying DevSecOps'
+date: '2020-06-05'
 draft: false
-tags: ['Uncategorized']
+tags: ['DevSecOps', 'DevOps', 'Security', 'Automation']
 ---
 
 In this episode I'm joined by [Michael Fraser](https://www.linkedin.com/in/itascode/) of [refactr](https://www.refactr.it/) to talk about DevSecOps.

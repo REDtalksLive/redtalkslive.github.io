@@ -1,8 +1,8 @@
 ---
-title: '#67 - Introduction to Consul'
-date: Mon, 24 Aug 2020 21:29:29 +0000
+title: '#067 - Introduction to Consul'
+date: '2020-08-24'
 draft: false
-tags: ['consul', 'service discovery', 'Uncategorized']
+tags: ['Consul', 'Service Discovery']
 ---
 
 In today's episode I provide a brief introduction to the awesome service delivery technology, [Consul](https://www.consul.io/)!

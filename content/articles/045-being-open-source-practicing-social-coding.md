@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks.live #45 - being ''open source'', practicing ''social coding'''
-date: Wed, 13 Feb 2019 15:25:55 +0000
+title: 'REDtalks.live #045 - being ''open source'', practicing ''social coding'''
+date: '2019-02-13'
 draft: false
-tags: ['chat', 'culture', 'GitHub', 'open source', 'social coding', 'video']
+tags: ['Guest Interview', 'GitHub', 'Open Source', 'Social Coding']
 ---
 
 Great to have GitHub's Christian Weber (t: [@classicwebdog](https://twitter.com/classicwebdog)) on the show again to help us understand what being part of the open-source community is all about. Some key theme's from this episode:

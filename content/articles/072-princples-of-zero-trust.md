@@ -1,6 +1,6 @@
 ---
 title: '#072 - The Principles of Zero Trust'
-date: Thu, 10 Oct 2022
+date: '2022-10-10'
 draft: false
 toc: true
 tags: ['Zero Trust', 'Security']

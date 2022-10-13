@@ -1,6 +1,6 @@
 ---
 title: 'REDtalks.live #40 - 2018 in Review'
-date: Sat, 29 Dec 2018 02:09:38 +0000
+date: '2018-12-29'
 draft: false
 tags: ['Uncategorized']
 ---

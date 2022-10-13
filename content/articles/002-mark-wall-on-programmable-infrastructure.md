@@ -1,8 +1,12 @@
 ---
-title: 'REDtalks #02 - Mark Wall on Programmable Infrastructure'
-date: Thu, 22 Sep 2016 20:22:47 +0000
+title: 'REDtalks #002 - Mark Wall on Programmable Infrastructure'
+date: '2016-09-22'
 draft: false
-tags: ['chat', 'introduction', 'video', 'wwt']
+tags: ['Guest Interview', 'Automation', 'WWT']
 ---
 
-In this episode of REDtalks Mark Wall joins us to share some insight into making that first step in automation. Mark, a solution architect at WWT, explains the pitfalls to avoid, the best place to start, and the overall benefits of programmable infrastructure and a journey towards automation. https://youtu.be/z14sEX4\_vcI Thanks for stopping by, Mark.
+In this episode of REDtalks Mark Wall joins us to share some insight into making that first step in automation. Mark, a solution architect at WWT, explains the pitfalls to avoid, the best place to start, and the overall benefits of programmable infrastructure and a journey towards automation.
+
+{{< youtube z14sEX4_vcI >}}
+
+Thanks for stopping by, Mark.

@@ -1,8 +1,8 @@
 ---
-title: '#55 - Remote Working: #StayCarm'
-date: Thu, 26 Mar 2020 17:00:39 +0000
+title: '#055 - Remote Working: #StayCarm'
+date: '2020-03-26'
 draft: false
-tags: ['StayCarm', 'Uncategorized']
+tags: ['Remote Working']
 ---
 
 In these troublesome times its super important we all look out for each other and #StayCarm

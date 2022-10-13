@@ -1,8 +1,8 @@
 ---
-title: '#60 - Remote Working: with kids'
-date: Thu, 09 Apr 2020 02:16:45 +0000
+title: '#060 - Remote Working: with kids'
+date: '2020-04-09'
 draft: false
-tags: ['Uncategorized']
+tags: ['Remote Working']
 ---
 
 Trying to remain focused and productive with children around can be difficult. Intense focus and "I want a snack" are definitely incompatible. In this episode I share how I balance productivity, guilt, and being a good parent throughout my day.

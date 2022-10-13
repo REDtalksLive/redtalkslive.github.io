@@ -1,8 +1,8 @@
 ---
-title: '#58 - Staying positive & focused through dark times'
-date: Thu, 02 Apr 2020 00:08:01 +0000
+title: '#058 - Staying positive & focused through dark times'
+date: '2020-04-02'
 draft: false
-tags: ['Uncategorized']
+tags: ['Remote Working']
 ---
 
 In this very open, transparent episode I'm joined by business scale up expert, Nick Bradley, to talk about mindset.

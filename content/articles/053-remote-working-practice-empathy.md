@@ -1,8 +1,8 @@
 ---
-title: '#53 - Remote Working: Practice Empathy'
+title: '#053 - Remote Working: Practice Empathy'
 date: Fri, 20 Mar 2020 18:01:59 +0000
 draft: false
-tags: ['culture', 'remote working', 'Uncategorized']
+tags: ['Remote Working']
 ---
 
 **The enforcement of social distancing doesn't require emotional distancing.**

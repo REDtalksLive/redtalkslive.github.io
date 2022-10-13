@@ -1,8 +1,8 @@
 ---
-title: '#69 - Network Infrastructure Automation w/ Consul'
-date: Mon, 25 Jan 2021 19:17:08 +0000
+title: '#069 - Network Infrastructure Automation w/ Consul'
+date: '2021-01-25'
 draft: false
-tags: ['consul', 'Hashicorp', 'NIA', 'Uncategorized']
+tags: ['Consul', 'Terraform', 'NIA', 'Consul Terraform Sync']
 ---
 
 Welcome to episode 69!

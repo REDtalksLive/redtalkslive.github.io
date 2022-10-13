@@ -1,8 +1,8 @@
 ---
-title: '#70 - Consul Terraform Sync - Under the Hood!'
-date: Tue, 02 Feb 2021 16:32:02 +0000
+title: '#070 - Consul Terraform Sync - Under the Hood!'
+date: '2021-02-02'
 draft: false
-tags: ['consul', 'NIA', 'terraform', 'Uncategorized']
+tags: ['Consul', 'Terraform', 'NIA', 'Consul Terraform Sync']
 ---
 
 Following last weeks episode – [#69 – Network Infrastructure Automation w/ Consul](https://redtalks.live/2021/01/25/69-network-infrastructure-automation-w-consul/) – we're going to take a closer look at HashiCorp's _Consul Terraform Sync_, and how it stitches together the observability of Consul with the unmatched Infrastructure as Code capabilities of Terraform.

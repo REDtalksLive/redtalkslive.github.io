@@ -1,8 +1,8 @@
 ---
-title: 'REDtalks.live #39 - Me at Github Universe'
-date: Tue, 23 Oct 2018 22:17:04 +0000
+title: 'REDtalks.live #039 - Me at Github Universe'
+date: '2018-10-23'
 draft: false
-tags: ["demo", "GitHub", "ncac", "video", "wehbook"]
+tags: ["Demo", "GitHub", "NCaC", "Conference", "Wehbook"]
 ---
 
 Last week Github Universe happened. You missed it? I'm sorry. Don't let it happen again! Github Universe is awesome. Some things that stood out for me:
@@ -25,12 +25,12 @@ Last, but not least, I appeared on the Github Universe Demo Desk where I demonst
 
 #### Quick Intro
 
-https://youtu.be/qebrAvUrcyA  
+{{< youtube qebrAvUrcyA >}}
 
 #### RBAC & Config Rollback
 
-https://youtu.be/BKF9nmtQbpI  
+{{< youtube BKF9nmtQbpI >}}
 
 #### Advanced - multi-change commit
 
-https://youtu.be/TzNKB1\_oW5Y
+{{< youtube TzNKB1_oW5Y >}}

@@ -1,6 +1,6 @@
 ---
-title: '#68 – Avoiding DevOps Continuous Disappointment'
-date: Mon, 31 Aug 2020 16:08:56 +0000
+title: '#068 – Avoiding DevOps Continuous Disappointment'
+date: '2020-08-31'
 draft: false
 tags: ['consul', 'devops', 'Uncategorized']
 ---

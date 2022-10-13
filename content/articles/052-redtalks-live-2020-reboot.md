@@ -1,8 +1,8 @@
 ---
-title: '#52 - REDtalks.live 2020 REBOOT'
-date: Fri, 20 Mar 2020 05:01:52 +0000
+title: '#052 - REDtalks.live 2020 REBOOT'
+date: '2020-03-20'
 draft: false
-tags: ['culture', 'remote working', 'Uncategorized']
+tags: ['Remote Working']
 ---
 
 It's been truly humbling to hear all the positive encouragement when I shared that I was considering a relaunch of the REDtalks.live show. Thank you!
