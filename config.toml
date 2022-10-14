@@ -11,6 +11,7 @@ enableRobotsTXT = true
 summaryLength = 30
 
 disqusShortname = 'redtalkslive'
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -18,6 +19,8 @@ disqusShortname = 'redtalkslive'
   text_color = ""
   author = ""
   favicon = ""
+  body_classes = "avenir bg-near-white"
+  post_content_classes = "avenir bg-near-white"
   site_logo = "/images/REDtalks.live-RedWhite.jpg"
   description = "The last theme you'll ever need. Maybe."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
