@@ -1,0 +1,116 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>Packer | REDtalks.live</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="HashiCorp Packer is badass!!!
+Here are some examples of how I use it:
+1. Create a Debian OVFs on macOS using VMware Fusion
+Requirements:
+Install packer (free):
+brew install packer"><meta name=generator content="Hugo 0.104.3"><meta name=robots content="noindex, nofollow"><link rel=stylesheet href=/ananke/css/main.min.css><meta property="og:title" content="Packer"><meta property="og:description" content="HashiCorp Packer is badass!!!
+Here are some examples of how I use it:
+1. Create a Debian OVFs on macOS using VMware Fusion
+Requirements:
+Install packer (free):
+brew install packer"><meta property="og:type" content="article"><meta property="og:url" content="https://redtalkslive.github.io/articles/packer/"><meta property="article:section" content="articles"><meta property="article:published_time" content="2021-05-02T00:00:00+00:00"><meta property="article:modified_time" content="2021-05-02T00:00:00+00:00"><meta itemprop=name content="Packer"><meta itemprop=description content="HashiCorp Packer is badass!!!
+Here are some examples of how I use it:
+1. Create a Debian OVFs on macOS using VMware Fusion
+Requirements:
+Install packer (free):
+brew install packer"><meta itemprop=datePublished content="2021-05-02T00:00:00+00:00"><meta itemprop=dateModified content="2021-05-02T00:00:00+00:00"><meta itemprop=wordCount content="366"><meta itemprop=keywords content="Infrastructure as Code,"><meta name=twitter:card content="summary"><meta name=twitter:title content="Packer"><meta name=twitter:description content="HashiCorp Packer is badass!!!
+Here are some examples of how I use it:
+1. Create a Debian OVFs on macOS using VMware Fusion
+Requirements:
+Install packer (free):
+brew install packer"></head><body class="ma0 avenir bg-near-white"><header class="cover bg-top" style=background-image:url(https://redtalkslive.github.io/images/REDtalks-banner_red_map.png)><div class=bg-black-60><nav class="pv3 ph3 ph4-ns" role=navigation><div class="flex-l justify-between items-center center"><a href=/ class="f3 fw2 hover-white no-underline white-90 dib"><img src=/images/REDtalks.live-RedWhite.jpg class="w100 mw5-ns" alt=REDtalks.live></a><div class="flex-l items-center"><ul class="pl0 mr3"><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/articles title="Articles page">Articles</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/architecture title="Architecture page">Architecture</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/kb title="Knowledgebase page">Knowledgebase</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/search title="Search page">Search</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/about/ title="About page">About</a></li></ul><div class=ananke-socials><a href=https://twitter.com/PearceNathan target=_blank class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel=noopener aria-label="follow on Twitter——Opens in a new window"><span class=icon><svg style="enable-background:new 0 0 67 67" viewBox="0 0 67 67" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167 22.283c-2.619.953-4.274 3.411-4.086 6.101l.063 1.038-1.048-.127c-3.813-.487-7.145-2.139-9.974-4.915l-1.383-1.377-.356 1.017c-.754 2.267-.272 4.661 1.299 6.271.838.89.649 1.017-.796.487-.503-.169-.943-.296-.985-.233-.146.149.356 2.076.754 2.839.545 1.06 1.655 2.097 2.871 2.712l1.027.487-1.215.021c-1.173.0-1.215.021-1.089.467.419 1.377 2.074 2.839 3.918 3.475l1.299.444-1.131.678c-1.676.976-3.646 1.526-5.616 1.568C19.775 43.256 19 43.341 19 43.405c0 .211 2.557 1.397 4.044 1.864 4.463 1.377 9.765.783 13.746-1.568 2.829-1.673 5.657-5 6.978-8.221.713-1.716 1.425-4.851 1.425-6.354.0-.975.063-1.102 1.236-2.267.692-.678 1.341-1.419 1.467-1.631.21-.403.188-.403-.88-.043-1.781.636-2.033.551-1.152-.402.649-.678 1.425-1.907 1.425-2.267.0-.063-.314.042-.671.233-.377.212-1.215.53-1.844.72l-1.131.361-1.027-.7c-.566-.381-1.361-.805-1.781-.932C39.766 21.902 38.131 21.944 37.167 22.283zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30S49.568 64 33 64z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span><span class=new-window><svg height="8" style="enable-background:new 0 0 1000 1000" viewBox="0 0 1e3 1e3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M598 128h298v298h-86V274L392 692l-60-60 418-418H598v-86zM810 810V512h86v298c0 46-40 86-86 86H214c-48 0-86-40-86-86V214c0-46 38-86 86-86h298v86H214v596h596z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span></a><a href=https://github.com/REDtalksLive target=_blank class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel=noopener aria-label="follow on GitHub——Opens in a new window"><span class=icon><svg style="enable-background:new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256 32C132.3 32 32 134.8 32 261.7c0 101.5 64.2 187.5 153.2 217.9 11.2 2.1 15.3-5 15.3-11.1.0-5.5-.2-19.9-.3-39.1-62.3 13.9-75.5-30.8-75.5-30.8-10.2-26.5-24.9-33.6-24.9-33.6-20.3-14.3 1.5-14 1.5-14 22.5 1.6 34.3 23.7 34.3 23.7 20 35.1 52.4 25 65.2 19.1 2-14.8 7.8-25 14.2-30.7-49.7-5.8-102-25.5-102-113.5.0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8.0.0 18.8-6.2 61.6 23.5 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 42.8-29.7 61.5-23.5 61.5-23.5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6.0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5.0 30.7-.3 55.5-.3 63 0 6.1 4 13.3 15.4 11C415.9 449.1 480 363.1 480 261.7 480 134.8 379.7 32 256 32z"/></svg></span><span class=new-window><svg height="8" style="enable-background:new 0 0 1000 1000" viewBox="0 0 1e3 1e3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M598 128h298v298h-86V274L392 692l-60-60 418-418H598v-86zM810 810V512h86v298c0 46-40 86-86 86H214c-48 0-86-40-86-86V214c0-46 38-86 86-86h298v86H214v596h596z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span></a></div></div></div></nav><div class="tc-l pv6 ph3 ph4-ns"><h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Packer</h1></div></div></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">ARTICLES</aside><div id=sharing class="mt3 ananke-socials"><a href="https://twitter.com/share?url=https://redtalkslive.github.io/articles/packer/&text=Packer" class="ananke-social-link twitter no-underline" aria-label="share on Twitter"><span class=icon><svg style="enable-background:new 0 0 67 67" viewBox="0 0 67 67" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167 22.283c-2.619.953-4.274 3.411-4.086 6.101l.063 1.038-1.048-.127c-3.813-.487-7.145-2.139-9.974-4.915l-1.383-1.377-.356 1.017c-.754 2.267-.272 4.661 1.299 6.271.838.89.649 1.017-.796.487-.503-.169-.943-.296-.985-.233-.146.149.356 2.076.754 2.839.545 1.06 1.655 2.097 2.871 2.712l1.027.487-1.215.021c-1.173.0-1.215.021-1.089.467.419 1.377 2.074 2.839 3.918 3.475l1.299.444-1.131.678c-1.676.976-3.646 1.526-5.616 1.568C19.775 43.256 19 43.341 19 43.405c0 .211 2.557 1.397 4.044 1.864 4.463 1.377 9.765.783 13.746-1.568 2.829-1.673 5.657-5 6.978-8.221.713-1.716 1.425-4.851 1.425-6.354.0-.975.063-1.102 1.236-2.267.692-.678 1.341-1.419 1.467-1.631.21-.403.188-.403-.88-.043-1.781.636-2.033.551-1.152-.402.649-.678 1.425-1.907 1.425-2.267.0-.063-.314.042-.671.233-.377.212-1.215.53-1.844.72l-1.131.361-1.027-.7c-.566-.381-1.361-.805-1.781-.932C39.766 21.902 38.131 21.944 37.167 22.283zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30S49.568 64 33 64z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span></a></div><h1 class="f1 athelas mt3 mb1">Packer</h1><time class="f6 mv4 dib tracked" datetime=2021-05-02T00:00:00Z>May 2, 2021</time></header><div class="nested-copy-line-height lh-copy avenir bg-near-white f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>HashiCorp Packer is badass!!!</p><p>Here are some examples of how I use it:</p><hr><p>1. Create a Debian OVFs on macOS using VMware Fusion</p><p>Requirements:</p><p>Install packer (free):<br><code>brew install packer</code></p><p>Install VMware Fusion Player (free): <a href="https://my.vmware.com/group/vmware/downloads/details?downloadGroup=FUS-1211&productId=1040">https://my.vmware.com/group/vmware/downloads/details?downloadGroup=FUS-1211&productId=1040</a></p><p>OVFTOOL (creates the OVA): <a href="https://my.vmware.com/group/vmware/downloads/details?downloadGroup=OVFTOOL441&productId=742">https://my.vmware.com/group/vmware/downloads/details?downloadGroup=OVFTOOL441&productId=742</a></p><hr><p>Setup:</p><p>debian.pkr.hcl</p><pre tabindex=0><code>source &#34;vmware-iso&#34; &#34;debian10&#34; {
+  guest_os_type = &#34;debian10_64Guest&#34;
+  disk_size = 4096
+  cpus = 1
+  memory = 1024
+  vm_name = &#34;Debian10&#34;
+  http_directory = &#34;http&#34;
+  iso_url = &#34;https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.9.0-amd64-netinst.iso&#34;
+  iso_checksum = &#34;sha256:8660593d10de0ce7577c9de4dab886ff540bc9843659c8879d8eea0ab224c109&#34;
+  ssh_username = &#34;debian&#34;
+  ssh_password = &#34;default&#34;
+  shutdown_command = &#34;sudo shutdown -P now&#34;
+  vmx_data = {
+    &#34;mks.noBeep&#34; = &#34;TRUE&#34;
+  }
+  boot_command = [
+    &#34;&lt;esc&gt;&lt;wait&gt;&#34;,
+    &#34;install &lt;wait&gt;&#34;,
+    &#34;preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg &lt;wait&gt;&#34;,
+    &#34;debian-installer=en_US.UTF-8 &lt;wait&gt;&#34;,
+    &#34;auto &lt;wait&gt;&#34;,
+    &#34;locale=en_US.UTF-8 &lt;wait&gt;&#34;,
+    &#34;kbd-chooser/method=us &lt;wait&gt;&#34;,
+    &#34;keyboard-configuration/xkb-keymap=us &lt;wait&gt;&#34;,
+    &#34;netcfg/get_hostname={{ .Name }} &lt;wait&gt;&#34;,
+    &#34;netcfg/get_domain=redtalks.lab &lt;wait&gt;&#34;,
+    &#34;fb=false &lt;wait&gt;&#34;,
+    &#34;debconf/frontend=noninteractive &lt;wait&gt;&#34;,
+    &#34;console-setup/ask_detect=false &lt;wait&gt;&#34;,
+    &#34;console-keymaps-at/keymap=us &lt;wait&gt;&#34;,
+    &#34;grub-installer/bootdev=/dev/sda &lt;wait&gt;&#34;,
+    &#34;&lt;enter&gt;&lt;wait&gt;&#34;
+  ]
+}
+
+build {
+  sources = [&#34;sources.vmware-iso.debian10&#34;]
+}
+</code></pre><p>http/preseed.cfg</p><pre tabindex=0><code># Setting the locales, country
+# Supported locales available in /usr/share/i18n/SUPPORTED
+d-i debian-installer/language string en
+d-i debian-installer/country string us
+d-i debian-installer/locale string en_US.UTF-8
+# Keyboard setting
+d-i console-setup/ask_detect boolean false
+d-i keyboard-configuration/layoutcode string us
+d-i keyboard-configuration/xkb-keymap us
+d-i keyboard-configuration/modelcode string pc105
+# User creation
+d-i passwd/user-fullname string kopicloud
+d-i passwd/username string kopicloud
+d-i passwd/user-password password kopicloud
+d-i passwd/user-password-again password kopicloud
+d-i user-setup/allow-password-weak boolean true
+# Disk and Partitioning setup
+d-i partman-auto-lvm/guided_size string max
+d-i partman-auto/choose_recipe select atomic
+d-i partman-auto/method string lvm
+d-i partman-lvm/confirm boolean true
+d-i partman-lvm/confirm boolean true
+d-i partman-lvm/confirm_nooverwrite boolean true
+d-i partman-lvm/device_remove_lvm boolean true
+d-i partman/choose_partition select finish
+d-i partman/confirm boolean true
+d-i partman/confirm_nooverwrite boolean true
+d-i partman/confirm_write_new_label boolean true
+# Set mirror
+apt-mirror-setup apt-setup/use_mirror boolean true
+choose-mirror-bin mirror/http/proxy string
+d-i mirror/country string manual
+d-i mirror/http/directory string /debian
+d-i mirror/http/hostname string httpredir.debian.org
+d-i mirror/http/proxy string
+# Set root password
+d-i passwd/root-login boolean false
+d-i passwd/root-password-again password default
+d-i passwd/root-password password default
+d-i passwd/user-fullname string debian
+d-i passwd/user-uid string 1000
+d-i passwd/user-password password default
+d-i passwd/user-password-again password default
+d-i passwd/username string debian
+# Package installations
+popularity-contest popularity-contest/participate boolean false
+tasksel tasksel/first multiselect standard, ssh-server, web-server
+d-i pkgsel/include sudo wget curl open-vm-tools
+d-i pkgsel/install-language-support boolean false
+d-i pkgsel/update-policy select none
+d-i pkgsel/upgrade select full-upgrade
+d-i grub-installer/only_debian boolean true
+d-i finish-install/reboot_in_progress note
+#Skip scanning additional CDs
+d-i apt-setup/cdrom/set-first boolean false
+d-i apt-setup/cdrom/set-next boolean false   
+d-i apt-setup/cdrom/set-failed boolean false 
+</code></pre><ul class=pa0><li class="list di"><a href=/tags/infrastructure-as-code/ class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Infrastructure as Code</a></li></ul><div class="mt6 instapaper_ignoref"><div id=disqus_thread></div><script type=application/javascript>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//redtalkslive.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div><aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links"><p class="f5 b mb3">Related</p><ul class="pa0 list"><li class=mb2><a href=/articles/036-christian-weber-from-github-on-infrastructure-as-code/>REDtalks.live #036 - Christian Weber from GitHub on Infrastructure as Code</a></li><li class=mb2><a href=/articles/034-github-integration-v0-2-released/>REDtalks.live #034 - GitHub Integration v0.2 released</a></li><li class=mb2><a href=/articles/031-network-infrastructure-as-code-part-3/>REDtalks.live #031 - Network Configuration as Code - Part 3</a></li><li class=mb2><a href=/articles/030-network-infrastructure-as-code-part-2/>REDtalks.live #030 - Network Configuration as Code - Part 2</a></li><li class=mb2><a href=/articles/029-network-infrastructure-as-code-part-1/>REDtalks.live #029 - Network Configuration as Code - Part 1</a></li></ul></div></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://redtalkslive.github.io/>&copy; REDtalks.live 2022</a><div><div class=ananke-socials><a href=https://twitter.com/PearceNathan target=_blank class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel=noopener aria-label="follow on Twitter——Opens in a new window"><span class=icon><svg style="enable-background:new 0 0 67 67" viewBox="0 0 67 67" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167 22.283c-2.619.953-4.274 3.411-4.086 6.101l.063 1.038-1.048-.127c-3.813-.487-7.145-2.139-9.974-4.915l-1.383-1.377-.356 1.017c-.754 2.267-.272 4.661 1.299 6.271.838.89.649 1.017-.796.487-.503-.169-.943-.296-.985-.233-.146.149.356 2.076.754 2.839.545 1.06 1.655 2.097 2.871 2.712l1.027.487-1.215.021c-1.173.0-1.215.021-1.089.467.419 1.377 2.074 2.839 3.918 3.475l1.299.444-1.131.678c-1.676.976-3.646 1.526-5.616 1.568C19.775 43.256 19 43.341 19 43.405c0 .211 2.557 1.397 4.044 1.864 4.463 1.377 9.765.783 13.746-1.568 2.829-1.673 5.657-5 6.978-8.221.713-1.716 1.425-4.851 1.425-6.354.0-.975.063-1.102 1.236-2.267.692-.678 1.341-1.419 1.467-1.631.21-.403.188-.403-.88-.043-1.781.636-2.033.551-1.152-.402.649-.678 1.425-1.907 1.425-2.267.0-.063-.314.042-.671.233-.377.212-1.215.53-1.844.72l-1.131.361-1.027-.7c-.566-.381-1.361-.805-1.781-.932C39.766 21.902 38.131 21.944 37.167 22.283zM33 64C16.432 64 3 50.569 3 34S16.432 4 33 4s30 13.431 30 30S49.568 64 33 64z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span><span class=new-window><svg height="8" style="enable-background:new 0 0 1000 1000" viewBox="0 0 1e3 1e3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M598 128h298v298h-86V274L392 692l-60-60 418-418H598v-86zM810 810V512h86v298c0 46-40 86-86 86H214c-48 0-86-40-86-86V214c0-46 38-86 86-86h298v86H214v596h596z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span></a><a href=https://github.com/REDtalksLive target=_blank class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel=noopener aria-label="follow on GitHub——Opens in a new window"><span class=icon><svg style="enable-background:new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256 32C132.3 32 32 134.8 32 261.7c0 101.5 64.2 187.5 153.2 217.9 11.2 2.1 15.3-5 15.3-11.1.0-5.5-.2-19.9-.3-39.1-62.3 13.9-75.5-30.8-75.5-30.8-10.2-26.5-24.9-33.6-24.9-33.6-20.3-14.3 1.5-14 1.5-14 22.5 1.6 34.3 23.7 34.3 23.7 20 35.1 52.4 25 65.2 19.1 2-14.8 7.8-25 14.2-30.7-49.7-5.8-102-25.5-102-113.5.0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8.0.0 18.8-6.2 61.6 23.5 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 42.8-29.7 61.5-23.5 61.5-23.5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6.0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5.0 30.7-.3 55.5-.3 63 0 6.1 4 13.3 15.4 11C415.9 449.1 480 363.1 480 261.7 480 134.8 379.7 32 256 32z"/></svg></span><span class=new-window><svg height="8" style="enable-background:new 0 0 1000 1000" viewBox="0 0 1e3 1e3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M598 128h298v298h-86V274L392 692l-60-60 418-418H598v-86zM810 810V512h86v298c0 46-40 86-86 86H214c-48 0-86-40-86-86V214c0-46 38-86 86-86h298v86H214v596h596z" style="fill-rule:evenodd;clip-rule:evenodd"/></svg></span></a></div></div></div></footer></body></html>
