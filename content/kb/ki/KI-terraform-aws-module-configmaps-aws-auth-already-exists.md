@@ -3,7 +3,7 @@ title: 'KNOWN ISSUE: Error: configmaps "aws-auth" already exists'
 date: '2022-10-14'
 draft: false
 description: "Workaround for AWS EKS module v17.x timing issue whereby the 'aws-auth' config map exists before it was expected to"
-tags: ["KB", "Known Issue", "helm", "k8s"]
+tags: ["Known Issue", "AWS", "terraform", "module", "k8s"]
 featured_image: ''
 omit_header_text: true
 ---
