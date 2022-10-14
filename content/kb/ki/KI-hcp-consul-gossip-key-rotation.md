@@ -1,9 +1,8 @@
 ---
-title: "KI: HCP Consul - No support for gossip key rotation"
+title: "KNOWN ISSUE: HCP Consul - No support for gossip key rotation"
 date: Fri, 21 Oct 2022
 draft: false
 description: "Production deployment best practices are to have a gossip key rotation process to execute in the event of compromise."
-#featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
 tags: ["KB", "Known Issue", "HCP", "Security"]
 featured_image: ''
 omit_header_text: true

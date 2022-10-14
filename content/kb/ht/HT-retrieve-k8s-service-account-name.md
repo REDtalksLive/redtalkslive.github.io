@@ -1,10 +1,9 @@
 ---
-title: "HT: Retrieve K8s Service Account names"
-date: Fri, 21 Oct 2022
+title: 'HOW TO: Retrieve K8s Service Account names'
+date: '2022-10-12'
 draft: false
 description: "Understand how to find the K8s Service Account names for Consul"
-#featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
-tags: ["kb", "howto", "helm", "k8s"]
+tags: ["KB", "How To", "helm", "k8s"]
 featured_image: ''
 omit_header_text: true
 ---
