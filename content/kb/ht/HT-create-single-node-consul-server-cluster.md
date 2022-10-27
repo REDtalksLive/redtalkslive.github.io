@@ -20,7 +20,7 @@ How to create a Consul single-node dev/test cluster!
 ```sh
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
-sudo apt update && sudo apt install consul
+sudo apt update && sudo apt install consul-enterprise
 ```
 
 ### Ubuntu/Debian - Specific Version
@@ -38,7 +38,7 @@ The select the version you want from the list and install, e.g `1.13.3+ent-1`:
 sudo apt install consul-enterprise=1.13.3+ent-1
 ```
 
-*NOTE:* For community (test/dev):
+*NOTE:* For community OSS (test/dev) remove `-enterprise`, e.g.:
 ```sh
 apt list -a consul
 sudo apt install consul=1.13.3-1
