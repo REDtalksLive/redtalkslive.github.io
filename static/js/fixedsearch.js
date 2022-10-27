@@ -115,7 +115,7 @@ fixedsearch = function(){
 	Toggle focus UI of form
 	--------------------------------------------------------------*/
 	function search_toggle_focus(e) {
-		 console.log(e); // DEBUG
+		// console.log(e); // DEBUG
 		// order of operations is very important to keep focus where it should stay
 		if (!search__focus) {
 			search_submit.value = '⨯';
@@ -179,10 +179,11 @@ fixedsearch = function(){
 				fetch_JSON(search_form.getAttribute('data-language-prefix') + '/index.json', function(data){
 					var options = { // fuse.js options; check fuse.js website for details
 						shouldSort: true,
-						location: 0,
-						distance: 100,
-						threshold: 0.4,
-						minMatchCharLength: 2,
+//						location: 0, // default 0
+//						distance: 100, // default 100
+//						threshold: 0.4, // default 0.6
+//            ignoreLocation: true, // default false
+						minMatchCharLength: 2, // default 1
 						keys: [
 							'permalink',
 							'title',
